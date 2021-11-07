@@ -1,0 +1,17 @@
+* {
+  font-family: sans-serif;
+}
+
+Header {
+  display: flex;
+  justify-content: center;
+}
+
+img {
+  vertical-align: middle;
+}
+
+.profile-pic {
+  box-shadow: 0px 4px 6px 2px lightgrey;
+  border-radius: 50%;
+}
