@@ -91,6 +91,28 @@ hr {
   max-width: 100%;
 }
 
+.bridge {
+  display: inline-flex;
+}
+
+.bridgehouse {
+  filter: grayscale(100%);
+}
+
+.bridgehouse:hover {
+  filter: none;
+}
+
+.house {
+  display: flex;
+  color: grey;
+  font-size: 20px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-weight: lighter;
+}
+
 .photosamples {
   display: flex;
   flex-wrap: wrap;
