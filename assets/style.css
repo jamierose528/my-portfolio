@@ -52,7 +52,7 @@ hr {
   margin-bottom: 7px;
   margin-right: auto;
   margin-left: auto;
-  margin-top: 9px;
+  margin-top: 20px;
 }
 
 .jump {
@@ -91,10 +91,15 @@ hr {
   max-width: 100%;
 }
 
+.photosamples {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .picture {
   flex: 0 1 33.33%;
   width: 33.3333%;
-  margin: 2px;
+  margin: auto;
   filter: grayscale(100%);
   border: 1px solid #c5d3cd;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -103,11 +108,6 @@ hr {
 
 .picture:hover {
   filter: none;
-}
-
-.photosamples {
-  display: flex;
-  flex-wrap: wrap;
 }
 
 #myBtn {
