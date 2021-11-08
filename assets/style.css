@@ -110,6 +110,27 @@ hr {
   filter: none;
 }
 
+.info {
+  padding: 3px;
+}
+
+.info:hover {
+  color: #c5d3cd;
+}
+
+#contact {
+  display: flex block;
+  justify-content: center;
+  text-align: center;
+  flex-direction: row;
+  text-transform: uppercase;
+  font-weight: lighter;
+  font-size: 15px;
+  opacity: 0.6;
+  letter-spacing: 6px;
+  padding-bottom: 80px;
+}
+
 #myBtn {
   display: block;
   position: fixed;
