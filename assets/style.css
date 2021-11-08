@@ -7,7 +7,6 @@ Header {
   justify-content: center;
   text-align: center;
   flex-direction: row;
-  background-color: #9bf0fd 0.8;
   padding: 120px 16px;
 }
 
@@ -21,6 +20,39 @@ nav {
   opacity: 0.6;
   padding: 32px;
   width: auto;
+}
+
+h2 {
+  text-transform: uppercase;
+  font-weight: lighter;
+  font-size: 30px;
+  opacity: 0.6;
+  letter-spacing: 6px;
+  text-align: center;
+  justify-content: center;
+  padding: 120px 16px;
+}
+
+footer {
+  text-transform: uppercase;
+  font-weight: lighter;
+  font-size: 15px;
+  opacity: 0.6;
+  letter-spacing: 6px;
+  text-align: center;
+  justify-content: center;
+  padding: 80px 16px;
+  border-bottom: grey;
+}
+
+hr {
+  width: 80%;
+  height: 2px;
+  background-color: grey;
+  margin-bottom: 7px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 9px;
 }
 
 .jump {
@@ -38,7 +70,7 @@ nav {
 .fname {
   text-transform: uppercase;
   font-weight: lighter;
-  font-size: x-large;
+  font-size: 40px;
   opacity: 0.6;
   letter-spacing: 6px;
 }
@@ -50,4 +82,11 @@ nav {
   border: none;
   outline: 0;
   color: #587468 !important;
+}
+
+.breakpic {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
 }
