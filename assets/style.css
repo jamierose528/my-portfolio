@@ -134,6 +134,8 @@ hr {
 
 .info {
   padding: 3px;
+  transition: 0.3s;
+  cursor: pointer;
 }
 
 .info:hover {
