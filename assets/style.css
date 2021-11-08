@@ -55,26 +55,6 @@ hr {
   margin-top: 9px;
 }
 
-#myBtn {
-  display: block;
-  position: fixed;
-  bottom: 20px;
-  right: 30px;
-  z-index: 99;
-  border: none;
-  outline: none;
-  background-color: #587468;
-  color: white;
-  cursor: pointer;
-  padding: 15px;
-  border-radius: 10px;
-  font-size: 18px;
-}
-
-#myBtn:hover {
-  background-color: #c5d3cd;
-}
-
 .jump {
   padding: 0px 8px;
   text-transform: uppercase;
@@ -109,4 +89,43 @@ hr {
   justify-content: center;
   align-items: center;
   max-width: 100%;
+}
+
+.picture {
+  flex: 0 1 33.33%;
+  width: 33.3333%;
+  margin: 2px;
+  filter: grayscale(100%);
+  border: 1px solid #c5d3cd;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+}
+
+.picture:hover {
+  filter: none;
+}
+
+.photosamples {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#myBtn {
+  display: block;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: #587468;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 10px;
+  font-size: 18px;
+}
+
+#myBtn:hover {
+  background-color: #c5d3cd;
 }
