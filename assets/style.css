@@ -234,6 +234,18 @@ hr {
   background-repeat: no-repeat;
 }
 
+#third-app {
+  background-image: url("./images/placeholders/93433592-3B8C-4BDC-85A0-106CFB98312F_1_105_c.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#fourth-app {
+  background-image: url("./images/placeholders/BAABE075-F22F-4018-817C-B35209F48573_1_105_c.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 #contact {
   display: flex block;
   justify-content: center;
