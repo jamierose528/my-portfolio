@@ -108,9 +108,9 @@ hr {
 
 .card:hover {
   color: black;
-  border: 1px solid black;
+  border: 1px solid #a2b9af;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  transition: all 0.3s ease-in-out;
+  transition: all 0.3s;
 }
 
 .card:hover h2 {
@@ -149,6 +149,7 @@ hr {
 .discover:hover {
   border: 1px solid black;
   color: black;
+  background-color: #a2b9af;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
@@ -159,7 +160,7 @@ hr {
 .description {
   justify-content: center;
   text-align: center;
-  color: grey;
+  color: #587468;
   padding: 15px 50px;
   margin-bottom: 20px;
 }
