@@ -177,8 +177,9 @@ hr {
 
 #bridgehouse-website {
   color: grey;
+  text-decoration: underline;
 }
 
-#bridehouse-website:hover {
+#bridgehouse-website:hover {
   color: #c5d3cd;
 }
