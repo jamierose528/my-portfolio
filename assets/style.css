@@ -33,30 +33,6 @@ h2 {
   padding: 120px 16px;
 }
 
-button {
-  border: 2px solid #a2b9af;
-  font-size: 10pt;
-  margin: 10px;
-  padding: 7px 0;
-  width: 150px;
-  color: #a2b9af;
-  opacity: 0;
-  text-align: center;
-  z-index: 2;
-  text-transform: uppercase;
-  font-weight: lighter;
-  letter-spacing: 5px;
-}
-
-button:hover {
-  border: 2px solid black;
-  color: black;
-}
-
-button:focus {
-  background-color: #587468;
-}
-
 footer {
   text-transform: uppercase;
   font-weight: lighter;
@@ -117,7 +93,7 @@ hr {
 }
 
 .apps {
-  display: inline-flex;
+  display: flex;
   margin: auto;
   filter: grayscale(100%);
   flex-wrap: wrap;
@@ -127,20 +103,63 @@ hr {
   flex: 0 0 25%;
   width: 25%;
   font-family: monospace;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
 }
 
-.card:hover button {
+.card:hover {
+  color: black;
+  border: 1px solid black;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card:hover h2 {
+  color: black;
+  transition: all 0.3s ease-in-out;
+}
+
+.card:hover .description {
+  color: black;
+  transition: all 0.3s ease-in-out;
+}
+
+.card:hover .discover {
   opacity: 1;
   transition: all 0.3s ease-in-out;
 }
 
+.discover {
+  border: 1px solid #a2b9af;
+  font-size: 10pt;
+  margin: 10px;
+  padding: 7px 7px;
+  width: 150px;
+  color: #a2b9af;
+  opacity: 0;
+  text-align: center;
+  z-index: 2;
+  text-transform: uppercase;
+  font-weight: lighter;
+  letter-spacing: 5px;
+  position: relative;
+  bottom: 20px;
+  left: 25%;
+}
+
+.discover:hover {
+  border: 1px solid black;
+  color: black;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.discover:focus {
+  background-color: #587468;
+}
+
 .description {
   justify-content: center;
-  align-items: center;
+  text-align: center;
   color: grey;
-  padding-left: 50px;
+  padding: 15px 50px;
   margin-bottom: 20px;
 }
 
@@ -243,12 +262,12 @@ hr {
 
 @media screen and (max-width: 992px) {
   .picture {
-    flex: 1 0 50%;
+    flex: 0 0 50%;
     width: 50%;
   }
 
   .card {
-    flex: 1 0 50%;
+    flex: 0 0 50%;
     width: 50%;
   }
 }
