@@ -316,4 +316,15 @@ hr {
   .house {
     width: 100%;
   }
+
+  .discover {
+    border: 1px solid black;
+    color: black;
+    background-color: #a2b9af;
+    opacity: 1;
+  }
+  .description {
+    color: black;
+    opacity: 1;
+  }
 }
