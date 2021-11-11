@@ -114,7 +114,7 @@ hr {
   outline: 0.5px solid black;
 }
 
-.card:hover .apps {
+ {
   filter: none;
 }
 
@@ -181,7 +181,9 @@ hr {
   width: 50%;
 }
 
-.bridgehouse:hover {
+.bridgehouse:hover,
+.picture:hover,
+.card:hover .apps {
   filter: none;
 }
 
@@ -209,10 +211,6 @@ hr {
   border: 1px solid #c5d3cd;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
-}
-
-.picture:hover {
-  filter: none;
 }
 
 .info {
