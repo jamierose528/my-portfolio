@@ -252,7 +252,7 @@ hr {
 }
 
 #contact {
-  display: flex block;
+  display: flex;
   justify-content: center;
   text-align: center;
   flex-direction: row;
@@ -306,6 +306,8 @@ hr {
   .card {
     width: 50%;
   }
+
+  #contact;
 }
 
 @media screen and (max-width: 768px) {
