@@ -173,7 +173,7 @@ hr {
 }
 
 .bridge {
-  display: inline-flex;
+  display: flex;
 }
 
 .bridgehouse {
@@ -294,7 +294,7 @@ hr {
 }
 
 @media screen and (max-width: 992px) {
-  .picture {
+  .picture .navbar #contact {
     flex: 0 0 50%;
     width: 50%;
   }
@@ -304,16 +304,6 @@ hr {
   }
 
   .card {
-    width: 50%;
-  }
-
-  .navbar {
-    flex: 0 0 50%;
-    width: 50%;
-  }
-
-  #contact {
-    flex: 0 0 50%;
     width: 50%;
   }
 }
