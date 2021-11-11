@@ -114,10 +114,6 @@ hr {
   outline: 0.5px solid black;
 }
 
- {
-  filter: none;
-}
-
 .card:hover h2 {
   color: black;
   transition: all 0.3s ease-in-out;
@@ -295,13 +291,13 @@ hr {
 
 @media screen and (max-width: 992px) {
   .picture,
-  .navbar,
-  #contact {
+  .navbar {
     flex: 0 0 50%;
     width: 50%;
   }
 
-  .bridge {
+  .bridge,
+  #contact {
     flex: 0 0 50%;
   }
 
