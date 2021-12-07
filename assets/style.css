@@ -244,6 +244,21 @@ hr {
   padding-bottom: 90px;
 }
 
+#resume {
+  color: grey;
+  text-align: center;
+  letter-spacing: 1px;
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  text-transform: uppercase;
+}
+
+#resume:hover {
+  color: #587468;
+  transition: all 0.3s ease-in-out;
+}
+
 #first-app {
   background-image: url("./images/projects/mangapanel4.png");
   background-size: cover;
