@@ -235,6 +235,15 @@ hr {
   transition: all 0.3s ease-in-out;
 }
 
+#about-me-paragraph {
+  color: rgba(0, 0, 0, 0.6);
+  text-align: center;
+  margin-left: 25%;
+  margin-right: 25%;
+  letter-spacing: 1px;
+  padding-bottom: 90px;
+}
+
 #first-app {
   background-image: url("./images/projects/mangapanel4.png");
   background-size: cover;
