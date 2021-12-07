@@ -96,7 +96,6 @@ hr {
 .apps {
   display: flex;
   margin: auto;
-  filter: grayscale(100%);
   flex-wrap: wrap;
 }
 
@@ -105,6 +104,7 @@ hr {
   font-family: monospace;
   transition: 0.3s;
   margin: 1px;
+  filter: grayscale(100%);
 }
 
 .card:hover {
@@ -113,6 +113,7 @@ hr {
   outline: 0.5px solid black;
   background-color: white;
   transition: all 0.3s ease-in-out;
+  filter: none;
 }
 
 .card:hover h2 {
@@ -139,12 +140,12 @@ hr {
 }
 
 .discover {
-  border: 1px solid #a2b9af;
+  border: 1px solid #587468;
   font-size: 10pt;
   margin: 10px;
   padding: 7px 7px;
   width: 150px;
-  color: #a2b9af;
+  color: #587468;
   opacity: 0;
   text-align: center;
   z-index: 2;
@@ -159,7 +160,7 @@ hr {
 .discover:hover {
   border: 1px solid black;
   color: black;
-  background-color: #a2b9af;
+  background-color: grey;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: all 0.3s ease-in-out;
 }
@@ -230,7 +231,8 @@ hr {
 }
 
 .opacity-40:hover {
-  background-color: white;
+  background-color: #a2b9af;
+  filter: none;
   transition: all 0.3s ease-in-out;
 }
 
