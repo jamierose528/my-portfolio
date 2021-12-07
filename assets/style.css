@@ -110,13 +110,13 @@ hr {
 .card:hover {
   color: black;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  transition: all 0.3s;
   outline: 0.5px solid black;
+  background-color: white;
+  transition: all 0.3s ease-in-out;
 }
 
 .card:hover h2 {
-  color: black;
-  transition: all 0.3s ease-in-out;
+  opacity: 1;
 }
 
 .card:hover .description {
@@ -128,6 +128,14 @@ hr {
 .card:hover .discover {
   opacity: 1;
   transition: all 0.3s ease-in-out;
+}
+
+.project-title {
+  opacity: 0;
+}
+
+.container {
+  height: 100%;
 }
 
 .discover {
@@ -144,7 +152,7 @@ hr {
   font-weight: lighter;
   letter-spacing: 5px;
   position: relative;
-  bottom: 20px;
+  bottom: 10px;
   left: 25%;
 }
 
@@ -153,6 +161,7 @@ hr {
   color: black;
   background-color: #a2b9af;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease-in-out;
 }
 
 .discover:focus {
@@ -211,26 +220,29 @@ hr {
 
 .info {
   padding: 3px;
-  transition: 0.3s;
+  transition: all 0.3s ease-in-out;
   cursor: pointer;
 }
 
 .info:hover {
   color: #c5d3cd;
+  transition: all 0.3s ease-in-out;
 }
 
-.opacity-40 {
-  background-color: rgba(255, 255, 255, 0.2);
+.opacity-40:hover {
+  background-color: white;
+
+  transition: all 0.3s ease-in-out;
 }
 
 #first-app {
-  background-image: url("./images/placeholders/136398C2-6736-4D44-A439-A33E9994AA36_1_105_c.jpeg");
+  background-image: url("./images/projects/mangapanel4.png");
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 #second-app {
-  background-image: url("./images/placeholders/8F2FBCAE-EB2B-4B13-8BE6-8B21AF740DE3_1_105_c.jpeg");
+  background-image: url("./images/projects/Screenshot7.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
