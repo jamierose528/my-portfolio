@@ -100,6 +100,8 @@ hr {
 }
 
 .card {
+  display: flex;
+  width: 25%;
   flex: 1;
   font-family: monospace;
   transition: 0.3s;
@@ -137,6 +139,7 @@ hr {
 
 .container {
   height: 100%;
+  align-items: center;
 }
 
 .discover {
@@ -273,7 +276,7 @@ hr {
 }
 
 #third-app {
-  background-image: url("./images/placeholders/93433592-3B8C-4BDC-85A0-106CFB98312F_1_105_c.jpeg");
+  background-image: url("./images/projects/alternative\ background.png");
   background-size: cover;
   background-repeat: no-repeat;
 }
