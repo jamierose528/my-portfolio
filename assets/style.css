@@ -65,7 +65,7 @@ hr {
 }
 
 .jump:hover {
-  background-color: #a2b9af;
+  background-color: #bdc9c4;
   transition: all 0.3s ease-in-out;
 }
 
@@ -234,7 +234,7 @@ hr {
 }
 
 .opacity-40:hover {
-  background-color: #a2b9af;
+  background-color: #bdc9c4;
   filter: none;
   transition: all 0.3s ease-in-out;
 }
@@ -360,7 +360,7 @@ hr {
   .discover {
     border: 1px solid black;
     color: black;
-    background-color: #a2b9af;
+    background-color: #bdc9c4;
     opacity: 1;
   }
   .description {
