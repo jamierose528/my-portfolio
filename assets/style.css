@@ -157,7 +157,6 @@ hr {
   letter-spacing: 5px;
   position: relative;
   bottom: 10px;
-  left: 25%;
 }
 
 .discover:hover {
@@ -286,6 +285,9 @@ hr {
   background-size: cover;
   background-repeat: no-repeat;
 }
+
+#buttons {
+  padding: 5%;
 
 #contact {
   display: flex;
